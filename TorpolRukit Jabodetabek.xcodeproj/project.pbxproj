@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C09AD328244C5F150088E452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD327244C5F150088E452 /* AppDelegate.swift */; };
+		C09AD32A244C5F150088E452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD329244C5F150088E452 /* SceneDelegate.swift */; };
+		C09AD32C244C5F150088E452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD32B244C5F150088E452 /* ViewController.swift */; };
+		C09AD32F244C5F150088E452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09AD32D244C5F150088E452 /* Main.storyboard */; };
+		C09AD331244C5F170088E452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09AD330244C5F170088E452 /* Assets.xcassets */; };
+		C09AD334244C5F170088E452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09AD332244C5F170088E452 /* LaunchScreen.storyboard */; };
+		C09AD33F244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD33E244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift */; };
+		C09AD34A244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD349244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C09AD33B244C5F170088E452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09AD31C244C5F150088E452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09AD323244C5F150088E452;
+			remoteInfo = "TorpolRukit Jabodetabek";
+		};
+		C09AD346244C5F170088E452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09AD31C244C5F150088E452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09AD323244C5F150088E452;
+			remoteInfo = "TorpolRukit Jabodetabek";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TorpolRukit Jabodetabek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09AD327244C5F150088E452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C09AD329244C5F150088E452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C09AD32B244C5F150088E452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C09AD32E244C5F150088E452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C09AD330244C5F170088E452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09AD333244C5F170088E452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C09AD335244C5F170088E452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09AD33A244C5F170088E452 /* TorpolRukit JabodetabekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TorpolRukit JabodetabekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09AD33E244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorpolRukit_JabodetabekTests.swift; sourceTree = "<group>"; };
+		C09AD340244C5F170088E452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09AD345244C5F170088E452 /* TorpolRukit JabodetabekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TorpolRukit JabodetabekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09AD349244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorpolRukit_JabodetabekUITests.swift; sourceTree = "<group>"; };
+		C09AD34B244C5F170088E452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09AD321244C5F150088E452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD337244C5F170088E452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD342244C5F170088E452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C09AD31B244C5F150088E452 = {
+			isa = PBXGroup;
+			children = (
+				C09AD326244C5F150088E452 /* TorpolRukit Jabodetabek */,
+				C09AD33D244C5F170088E452 /* TorpolRukit JabodetabekTests */,
+				C09AD348244C5F170088E452 /* TorpolRukit JabodetabekUITests */,
+				C09AD325244C5F150088E452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C09AD325244C5F150088E452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */,
+				C09AD33A244C5F170088E452 /* TorpolRukit JabodetabekTests.xctest */,
+				C09AD345244C5F170088E452 /* TorpolRukit JabodetabekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09AD326244C5F150088E452 /* TorpolRukit Jabodetabek */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD327244C5F150088E452 /* AppDelegate.swift */,
+				C09AD329244C5F150088E452 /* SceneDelegate.swift */,
+				C09AD32B244C5F150088E452 /* ViewController.swift */,
+				C09AD32D244C5F150088E452 /* Main.storyboard */,
+				C09AD330244C5F170088E452 /* Assets.xcassets */,
+				C09AD332244C5F170088E452 /* LaunchScreen.storyboard */,
+				C09AD335244C5F170088E452 /* Info.plist */,
+			);
+			path = "TorpolRukit Jabodetabek";
+			sourceTree = "<group>";
+		};
+		C09AD33D244C5F170088E452 /* TorpolRukit JabodetabekTests */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD33E244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift */,
+				C09AD340244C5F170088E452 /* Info.plist */,
+			);
+			path = "TorpolRukit JabodetabekTests";
+			sourceTree = "<group>";
+		};
+		C09AD348244C5F170088E452 /* TorpolRukit JabodetabekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD349244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift */,
+				C09AD34B244C5F170088E452 /* Info.plist */,
+			);
+			path = "TorpolRukit JabodetabekUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09AD323244C5F150088E452 /* TorpolRukit Jabodetabek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09AD34E244C5F170088E452 /* Build configuration list for PBXNativeTarget "TorpolRukit Jabodetabek" */;
+			buildPhases = (
+				C09AD320244C5F150088E452 /* Sources */,
+				C09AD321244C5F150088E452 /* Frameworks */,
+				C09AD322244C5F150088E452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TorpolRukit Jabodetabek";
+			productName = "TorpolRukit Jabodetabek";
+			productReference = C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C09AD339244C5F170088E452 /* TorpolRukit JabodetabekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09AD351244C5F170088E452 /* Build configuration list for PBXNativeTarget "TorpolRukit JabodetabekTests" */;
+			buildPhases = (
+				C09AD336244C5F170088E452 /* Sources */,
+				C09AD337244C5F170088E452 /* Frameworks */,
+				C09AD338244C5F170088E452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09AD33C244C5F170088E452 /* PBXTargetDependency */,
+			);
+			name = "TorpolRukit JabodetabekTests";
+			productName = "TorpolRukit JabodetabekTests";
+			productReference = C09AD33A244C5F170088E452 /* TorpolRukit JabodetabekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C09AD344244C5F170088E452 /* TorpolRukit JabodetabekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09AD354244C5F170088E452 /* Build configuration list for PBXNativeTarget "TorpolRukit JabodetabekUITests" */;
+			buildPhases = (
+				C09AD341244C5F170088E452 /* Sources */,
+				C09AD342244C5F170088E452 /* Frameworks */,
+				C09AD343244C5F170088E452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09AD347244C5F170088E452 /* PBXTargetDependency */,
+			);
+			name = "TorpolRukit JabodetabekUITests";
+			productName = "TorpolRukit JabodetabekUITests";
+			productReference = C09AD345244C5F170088E452 /* TorpolRukit JabodetabekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09AD31C244C5F150088E452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Miky Technology";
+				TargetAttributes = {
+					C09AD323244C5F150088E452 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C09AD339244C5F170088E452 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C09AD323244C5F150088E452;
+					};
+					C09AD344244C5F170088E452 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C09AD323244C5F150088E452;
+					};
+				};
+			};
+			buildConfigurationList = C09AD31F244C5F150088E452 /* Build configuration list for PBXProject "TorpolRukit Jabodetabek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09AD31B244C5F150088E452;
+			productRefGroup = C09AD325244C5F150088E452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09AD323244C5F150088E452 /* TorpolRukit Jabodetabek */,
+				C09AD339244C5F170088E452 /* TorpolRukit JabodetabekTests */,
+				C09AD344244C5F170088E452 /* TorpolRukit JabodetabekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09AD322244C5F150088E452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09AD334244C5F170088E452 /* LaunchScreen.storyboard in Resources */,
+				C09AD331244C5F170088E452 /* Assets.xcassets in Resources */,
+				C09AD32F244C5F150088E452 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD338244C5F170088E452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD343244C5F170088E452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09AD320244C5F150088E452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09AD32C244C5F150088E452 /* ViewController.swift in Sources */,
+				C09AD328244C5F150088E452 /* AppDelegate.swift in Sources */,
+				C09AD32A244C5F150088E452 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD336244C5F170088E452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09AD33F244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD341244C5F170088E452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09AD34A244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C09AD33C244C5F170088E452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09AD323244C5F150088E452 /* TorpolRukit Jabodetabek */;
+			targetProxy = C09AD33B244C5F170088E452 /* PBXContainerItemProxy */;
+		};
+		C09AD347244C5F170088E452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09AD323244C5F150088E452 /* TorpolRukit Jabodetabek */;
+			targetProxy = C09AD346244C5F170088E452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C09AD32D244C5F150088E452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09AD32E244C5F150088E452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C09AD332244C5F170088E452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09AD333244C5F170088E452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C09AD34C244C5F170088E452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C09AD34D244C5F170088E452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09AD34F244C5F170088E452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TorpolRukit Jabodetabek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-Jabodetabek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09AD350244C5F170088E452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TorpolRukit Jabodetabek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-Jabodetabek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C09AD352244C5F170088E452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TorpolRukit JabodetabekTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-JabodetabekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorpolRukit Jabodetabek.app/TorpolRukit Jabodetabek";
+			};
+			name = Debug;
+		};
+		C09AD353244C5F170088E452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TorpolRukit JabodetabekTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-JabodetabekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorpolRukit Jabodetabek.app/TorpolRukit Jabodetabek";
+			};
+			name = Release;
+		};
+		C09AD355244C5F170088E452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TorpolRukit JabodetabekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-JabodetabekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TorpolRukit Jabodetabek";
+			};
+			name = Debug;
+		};
+		C09AD356244C5F170088E452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TorpolRukit JabodetabekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-JabodetabekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TorpolRukit Jabodetabek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09AD31F244C5F150088E452 /* Build configuration list for PBXProject "TorpolRukit Jabodetabek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09AD34C244C5F170088E452 /* Debug */,
+				C09AD34D244C5F170088E452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09AD34E244C5F170088E452 /* Build configuration list for PBXNativeTarget "TorpolRukit Jabodetabek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09AD34F244C5F170088E452 /* Debug */,
+				C09AD350244C5F170088E452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09AD351244C5F170088E452 /* Build configuration list for PBXNativeTarget "TorpolRukit JabodetabekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09AD352244C5F170088E452 /* Debug */,
+				C09AD353244C5F170088E452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09AD354244C5F170088E452 /* Build configuration list for PBXNativeTarget "TorpolRukit JabodetabekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09AD355244C5F170088E452 /* Debug */,
+				C09AD356244C5F170088E452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C09AD31C244C5F150088E452 /* Project object */;
+}
