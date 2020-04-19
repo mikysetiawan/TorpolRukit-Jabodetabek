@@ -101,7 +101,6 @@
 			children = (
 				C09AD357244C60670088E452 /* Base */,
 				C09AD359244C60950088E452 /* Controller */,
-				C09AD32D244C5F150088E452 /* Main.storyboard */,
 				C09AD358244C60870088E452 /* Model */,
 				C09AD35A244C609C0088E452 /* View */,
 				C09AD330244C5F170088E452 /* Assets.xcassets */,
@@ -155,6 +154,7 @@
 		C09AD35A244C609C0088E452 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C09AD32D244C5F150088E452 /* Main.storyboard */,
 				C09AD332244C5F170088E452 /* LaunchScreen.storyboard */,
 			);
 			path = View;

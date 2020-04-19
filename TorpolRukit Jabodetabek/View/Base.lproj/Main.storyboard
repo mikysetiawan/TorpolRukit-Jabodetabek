@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h2k-ap-K0j">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TorpolRukit_Jabodetabek" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xJe-cX-PhS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="101.78571428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5cf-iS-wQR">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="h2k-ap-K0j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Sw-L9-S2G">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ZOu-JH-fxI" kind="relationship" relationship="viewControllers" id="bui-e1-mrz"/>
+                        <segue destination="mur-TP-fH0" kind="relationship" relationship="viewControllers" id="8H3-6E-J13"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w3E-Eq-QFj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="101.78571428571428"/>
+        </scene>
+        <!--Rumah Sakit-->
+        <scene sceneID="3u2-3z-eBi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZOu-JH-fxI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Rumah Sakit" image="hospital" id="iB9-WX-lEm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6gZ-mW-YMM">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fMe-iW-yBK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3G-dU-dRx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="101.78571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YBF-sV-Oyh">
+            <objects>
+                <viewController id="Rof-ZT-IpJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ewh-b0-VDe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="k2H-wl-BMv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jyv-EE-6vY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2fU-8F-ysA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="797.54464285714278"/>
+        </scene>
+        <!--Kantor Polisi-->
+        <scene sceneID="F0V-el-d8R">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mur-TP-fH0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Kantor Polisi" image="police-station" id="3Wu-Zl-0TL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gvT-AC-eC6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rof-ZT-IpJ" kind="relationship" relationship="rootViewController" id="d8W-Hb-cYo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A8I-Lh-ZwB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="797.54464285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hospital" width="25" height="25"/>
+        <image name="police-station" width="25" height="25"/>
+    </resources>
+</document>
