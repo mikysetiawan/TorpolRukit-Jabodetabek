@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C086C66B244CBD3A00345111 /* TorpolRukit Jabodetabek in Resources */ = {isa = PBXBuildFile; fileRef = C086C66A244CBD3A00345111 /* TorpolRukit Jabodetabek */; };
+		C086C66D244CBE1E00345111 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C086C66C244CBE1E00345111 /* README.md */; };
 		C0976F2E244C826E00D83701 /* ListRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F2D244C826E00D83701 /* ListRS.swift */; };
 		C0976F30244C828B00D83701 /* ListKantorPolisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F2F244C828B00D83701 /* ListKantorPolisi.swift */; };
 		C0976F32244C82BD00D83701 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F31244C82BD00D83701 /* TableViewAdapter.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C086C66A244CBD3A00345111 /* TorpolRukit Jabodetabek */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TorpolRukit Jabodetabek"; sourceTree = "<group>"; };
+		C086C66C244CBE1E00345111 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0976F2D244C826E00D83701 /* ListRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRS.swift; sourceTree = "<group>"; };
 		C0976F2F244C828B00D83701 /* ListKantorPolisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListKantorPolisi.swift; sourceTree = "<group>"; };
 		C0976F31244C82BD00D83701 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
@@ -95,7 +99,9 @@
 		C09AD31B244C5F150088E452 = {
 			isa = PBXGroup;
 			children = (
+				C086C66C244CBE1E00345111 /* README.md */,
 				C09AD326244C5F150088E452 /* TorpolRukit Jabodetabek */,
+				C086C66A244CBD3A00345111 /* TorpolRukit Jabodetabek */,
 				C09AD33D244C5F170088E452 /* TorpolRukit JabodetabekTests */,
 				C09AD348244C5F170088E452 /* TorpolRukit JabodetabekUITests */,
 				C09AD325244C5F150088E452 /* Products */,
@@ -288,8 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C086C66B244CBD3A00345111 /* TorpolRukit Jabodetabek in Resources */,
 				C09AD334244C5F170088E452 /* LaunchScreen.storyboard in Resources */,
 				C0F47FAE244C691500073179 /* TableViewCell.xib in Resources */,
+				C086C66D244CBE1E00345111 /* README.md in Resources */,
 				C0976F36244C8BF000D83701 /* DetailViewController.xib in Resources */,
 				C09AD331244C5F170088E452 /* Assets.xcassets in Resources */,
 				C09AD32F244C5F150088E452 /* Main.storyboard in Resources */,
