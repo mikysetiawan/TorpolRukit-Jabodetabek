@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0976F2E244C826E00D83701 /* ListRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F2D244C826E00D83701 /* ListRS.swift */; };
+		C0976F30244C828B00D83701 /* ListKantorPolisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F2F244C828B00D83701 /* ListKantorPolisi.swift */; };
+		C0976F32244C82BD00D83701 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F31244C82BD00D83701 /* TableViewAdapter.swift */; };
+		C0976F35244C8BF000D83701 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F33244C8BF000D83701 /* DetailViewController.swift */; };
+		C0976F36244C8BF000D83701 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0976F34244C8BF000D83701 /* DetailViewController.xib */; };
+		C0976F38244CA4C200D83701 /* KantorPolisiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0976F37244CA4C200D83701 /* KantorPolisiViewController.swift */; };
 		C09AD328244C5F150088E452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD327244C5F150088E452 /* AppDelegate.swift */; };
 		C09AD32A244C5F150088E452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD329244C5F150088E452 /* SceneDelegate.swift */; };
 		C09AD32C244C5F150088E452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD32B244C5F150088E452 /* ViewController.swift */; };
@@ -15,6 +21,8 @@
 		C09AD334244C5F170088E452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09AD332244C5F170088E452 /* LaunchScreen.storyboard */; };
 		C09AD33F244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD33E244C5F170088E452 /* TorpolRukit_JabodetabekTests.swift */; };
 		C09AD34A244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AD349244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift */; };
+		C0F47FAD244C691500073179 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F47FAB244C691500073179 /* TableViewCell.swift */; };
+		C0F47FAE244C691500073179 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F47FAC244C691500073179 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0976F2D244C826E00D83701 /* ListRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRS.swift; sourceTree = "<group>"; };
+		C0976F2F244C828B00D83701 /* ListKantorPolisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListKantorPolisi.swift; sourceTree = "<group>"; };
+		C0976F31244C82BD00D83701 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		C0976F33244C8BF000D83701 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C0976F34244C8BF000D83701 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		C0976F37244CA4C200D83701 /* KantorPolisiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantorPolisiViewController.swift; sourceTree = "<group>"; };
 		C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TorpolRukit Jabodetabek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09AD327244C5F150088E452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C09AD329244C5F150088E452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		C09AD345244C5F170088E452 /* TorpolRukit JabodetabekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TorpolRukit JabodetabekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09AD349244C5F170088E452 /* TorpolRukit_JabodetabekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorpolRukit_JabodetabekUITests.swift; sourceTree = "<group>"; };
 		C09AD34B244C5F170088E452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F47FAB244C691500073179 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C0F47FAC244C691500073179 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +155,9 @@
 		C09AD358244C60870088E452 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0976F2D244C826E00D83701 /* ListRS.swift */,
+				C0976F2F244C828B00D83701 /* ListKantorPolisi.swift */,
+				C0976F31244C82BD00D83701 /* TableViewAdapter.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,7 +165,10 @@
 		C09AD359244C60950088E452 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0F47FAB244C691500073179 /* TableViewCell.swift */,
 				C09AD32B244C5F150088E452 /* ViewController.swift */,
+				C0976F33244C8BF000D83701 /* DetailViewController.swift */,
+				C0976F37244CA4C200D83701 /* KantorPolisiViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +176,8 @@
 		C09AD35A244C609C0088E452 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C0976F34244C8BF000D83701 /* DetailViewController.xib */,
+				C0F47FAC244C691500073179 /* TableViewCell.xib */,
 				C09AD32D244C5F150088E452 /* Main.storyboard */,
 				C09AD332244C5F170088E452 /* LaunchScreen.storyboard */,
 			);
@@ -265,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09AD334244C5F170088E452 /* LaunchScreen.storyboard in Resources */,
+				C0F47FAE244C691500073179 /* TableViewCell.xib in Resources */,
+				C0976F36244C8BF000D83701 /* DetailViewController.xib in Resources */,
 				C09AD331244C5F170088E452 /* Assets.xcassets in Resources */,
 				C09AD32F244C5F150088E452 /* Main.storyboard in Resources */,
 			);
@@ -292,8 +318,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09AD32C244C5F150088E452 /* ViewController.swift in Sources */,
+				C0F47FAD244C691500073179 /* TableViewCell.swift in Sources */,
+				C0976F2E244C826E00D83701 /* ListRS.swift in Sources */,
+				C0976F32244C82BD00D83701 /* TableViewAdapter.swift in Sources */,
 				C09AD328244C5F150088E452 /* AppDelegate.swift in Sources */,
+				C0976F30244C828B00D83701 /* ListKantorPolisi.swift in Sources */,
 				C09AD32A244C5F150088E452 /* SceneDelegate.swift in Sources */,
+				C0976F35244C8BF000D83701 /* DetailViewController.swift in Sources */,
+				C0976F38244CA4C200D83701 /* KantorPolisiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

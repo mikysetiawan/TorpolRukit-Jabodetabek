@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h2k-ap-K0j">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h2k-ap-K0j">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,10 +14,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sfs-MR-uZz">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="inS-Au-P5m"/>
+                                    <constraint firstAttribute="height" constant="725" id="yTi-Db-ZwI"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sfs-MR-uZz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="B6b-ig-Iyf"/>
+                            <constraint firstItem="sfs-MR-uZz" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cWh-PR-PO1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="xJe-cX-PhS"/>
+                    <connections>
+                        <outlet property="rumahSakitTableView" destination="sfs-MR-uZz" id="GpR-BR-yXm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -29,6 +46,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="h2k-ap-K0j" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Sw-L9-S2G">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -60,17 +78,34 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="101.78571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Kantor Polisi View Controller-->
         <scene sceneID="YBF-sV-Oyh">
             <objects>
-                <viewController id="Rof-ZT-IpJ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KantorPolisiControllerScene" id="Rof-ZT-IpJ" customClass="KantorPolisiViewController" customModule="TorpolRukit_Jabodetabek" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ewh-b0-VDe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xQu-L2-E1V">
+                                <rect key="frame" x="0.0" y="85.5" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="OqS-LO-h2Z"/>
+                                    <constraint firstAttribute="height" constant="725" id="Vck-ZB-tZB"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xQu-L2-E1V" firstAttribute="centerY" secondItem="ewh-b0-VDe" secondAttribute="centerY" id="In2-wK-YRB"/>
+                            <constraint firstItem="xQu-L2-E1V" firstAttribute="centerX" secondItem="ewh-b0-VDe" secondAttribute="centerX" id="dZd-2c-QXq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="k2H-wl-BMv"/>
                     </view>
                     <navigationItem key="navigationItem" id="jyv-EE-6vY"/>
+                    <connections>
+                        <outlet property="kantorPolisiTableView" destination="xQu-L2-E1V" id="Vvu-y1-3DN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2fU-8F-ysA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

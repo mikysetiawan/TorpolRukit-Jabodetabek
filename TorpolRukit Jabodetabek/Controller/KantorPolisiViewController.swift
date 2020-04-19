@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  KantorPolisiViewController.swift
 //  TorpolRukit Jabodetabek
 //
 //  Created by Miky Setiawan on 19/04/20.
@@ -8,29 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class KantorPolisiViewController: UIViewController {
 
-    @IBOutlet weak var rumahSakitTableView: UITableView!
+    @IBOutlet weak var kantorPolisiTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // Menambahkan title pada Navigation
-        self.navigationItem.title = "List RS Jabodetabek"
         
-        // Menghubungkan rumahSakitTableView dengan ke dua metode di bawah
-        rumahSakitTableView.dataSource = self
+        // Menambahkan title pada Navigation
+        self.navigationItem.title = "List Kantor Polisi Jabodetabek"
+        
+        // Menghubungkan kantorPolisiTableView dengan ke dua metode di bawah
+        kantorPolisiTableView.dataSource = self
                 
         // Menambahkan delegate ke table view
-        rumahSakitTableView.delegate = self
+        kantorPolisiTableView.delegate = self
             
-        // Menghubungkan berkas XIB untuk TableViewCell dengan rumahSakitTableView.
-        rumahSakitTableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "tableCell")
+        // Menghubungkan berkas XIB untuk kantorPolisiTableViewCell dengan kantorPolisiTableView.
+        kantorPolisiTableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "tableCell")
     }
 }
 
-extension ViewController: UITableViewDataSource{
+extension KantorPolisiViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listRS.count
+        return listKantorPolisi.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -38,7 +39,7 @@ extension ViewController: UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! TableViewCell
             
         // Menetapkan nilai hero ke view di dalam cell
-        let list = listRS[indexPath.row]
+        let list = listKantorPolisi[indexPath.row]
         cell.titleList.text = list.title
         cell.descList.text = list.address
         cell.photoList.image = list.photo
@@ -50,13 +51,13 @@ extension ViewController: UITableViewDataSource{
     }
 }
 
-extension ViewController: UITableViewDelegate{
+extension KantorPolisiViewController: UITableViewDelegate{
    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Memanggil View Controller dengan berkas NIB/XIB di dalamnya
         let detail = DetailViewController(nibName: "DetailViewController", bundle: nil)
         
         // Mengirim data
-        detail.tableAdapter = listRS[indexPath.row]
+        detail.tableAdapter = listKantorPolisi[indexPath.row]
         
         // Push/mendorong view controller lain
         self.navigationController?.pushViewController(detail, animated: true)
