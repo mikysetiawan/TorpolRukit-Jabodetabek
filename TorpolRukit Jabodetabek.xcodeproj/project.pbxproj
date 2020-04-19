@@ -53,7 +53,7 @@
 		C0976F33244C8BF000D83701 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C0976F34244C8BF000D83701 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		C0976F37244CA4C200D83701 /* KantorPolisiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KantorPolisiViewController.swift; sourceTree = "<group>"; };
-		C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TorpolRukit Jabodetabek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09AD324244C5F150088E452 /* TorpolRukitJabodetabek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorpolRukitJabodetabek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09AD327244C5F150088E452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C09AD329244C5F150088E452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C09AD32B244C5F150088E452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		C09AD325244C5F150088E452 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */,
+				C09AD324244C5F150088E452 /* TorpolRukitJabodetabek.app */,
 				C09AD33A244C5F170088E452 /* TorpolRukit JabodetabekTests.xctest */,
 				C09AD345244C5F170088E452 /* TorpolRukit JabodetabekUITests.xctest */,
 			);
@@ -207,7 +207,7 @@
 			);
 			name = "TorpolRukit Jabodetabek";
 			productName = "TorpolRukit Jabodetabek";
-			productReference = C09AD324244C5F150088E452 /* TorpolRukit Jabodetabek.app */;
+			productReference = C09AD324244C5F150088E452 /* TorpolRukitJabodetabek.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C09AD339244C5F170088E452 /* TorpolRukit JabodetabekTests */ = {
@@ -512,8 +512,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-Jabodetabek";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikytech.TorpolRukitJabodetabek;
+				PRODUCT_NAME = TorpolRukitJabodetabek;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -529,8 +529,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mikytech.TorpolRukit-Jabodetabek";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikytech.TorpolRukitJabodetabek;
+				PRODUCT_NAME = TorpolRukitJabodetabek;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

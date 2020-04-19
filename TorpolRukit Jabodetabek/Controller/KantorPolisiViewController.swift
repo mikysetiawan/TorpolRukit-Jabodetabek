@@ -27,6 +27,10 @@ class KantorPolisiViewController: UIViewController {
         // Menghubungkan berkas XIB untuk kantorPolisiTableViewCell dengan kantorPolisiTableView.
         kantorPolisiTableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "tableCell")
     }
+    
+    
+    @IBAction func openProfile(_ sender: Any) {
+    }
 }
 
 extension KantorPolisiViewController: UITableViewDataSource{

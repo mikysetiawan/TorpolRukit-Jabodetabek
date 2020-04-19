@@ -8,9 +8,52 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="KcM-ye-DtD">
+            <objects>
+                <viewController id="Lgd-K3-ZZh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pRT-P7-eMY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profil Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJ4-ix-19C">
+                                <rect key="frame" x="146" y="119" width="122" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="miky" translatesAutoresizingMaskIntoConstraints="NO" id="G32-zB-KuV">
+                                <rect key="frame" x="28" y="178" width="359" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Miky Setiawan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZs-sO-pdv">
+                                <rect key="frame" x="124" y="409" width="170" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mikystandalone@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwL-rT-7De">
+                                <rect key="frame" x="102" y="451" width="214" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="JEe-Ea-Ev7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dgw-j2-wCG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1lv-iE-CPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3686.9565217391305" y="101.78571428571428"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TorpolRukit_Jabodetabek" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TorpolRukitJabodetabek" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,7 +74,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xJe-cX-PhS"/>
+                    <navigationItem key="navigationItem" id="xJe-cX-PhS">
+                        <barButtonItem key="rightBarButtonItem" title="Profile" image="profile" id="Mh4-WM-ySb">
+                            <connections>
+                                <segue destination="J9l-7W-Y3V" kind="show" id="Zed-PX-YTj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="rumahSakitTableView" destination="sfs-MR-uZz" id="GpR-BR-yXm"/>
                     </connections>
@@ -81,7 +130,7 @@
         <!--Kantor Polisi View Controller-->
         <scene sceneID="YBF-sV-Oyh">
             <objects>
-                <viewController storyboardIdentifier="KantorPolisiControllerScene" id="Rof-ZT-IpJ" customClass="KantorPolisiViewController" customModule="TorpolRukit_Jabodetabek" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KantorPolisiControllerScene" id="Rof-ZT-IpJ" customClass="KantorPolisiViewController" customModule="TorpolRukitJabodetabek" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ewh-b0-VDe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,7 +151,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="k2H-wl-BMv"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jyv-EE-6vY"/>
+                    <navigationItem key="navigationItem" id="jyv-EE-6vY">
+                        <barButtonItem key="rightBarButtonItem" title="Profile" image="profile" id="YBT-0U-vm3">
+                            <connections>
+                                <segue destination="J9l-7W-Y3V" kind="show" id="Anm-9Z-xlj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="kantorPolisiTableView" destination="xQu-L2-E1V" id="Vvu-y1-3DN"/>
                     </connections>
@@ -130,9 +185,33 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="797.54464285714278"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3QP-hl-0SJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J9l-7W-Y3V" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="TkC-mL-jmj"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4d4-bg-iEl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Lgd-K3-ZZh" kind="relationship" relationship="rootViewController" id="VzF-pI-787"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kvS-4f-DJG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2855" y="102"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Anm-9Z-xlj"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="hospital" width="25" height="25"/>
+        <image name="miky" width="300" height="300"/>
         <image name="police-station" width="25" height="25"/>
+        <image name="profile" width="21" height="21"/>
     </resources>
 </document>

@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var rumahSakitTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
         // Menambahkan title pada Navigation
         self.navigationItem.title = "List RS Jabodetabek"
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
         // Menghubungkan berkas XIB untuk TableViewCell dengan rumahSakitTableView.
         rumahSakitTableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "tableCell")
     }
+    
 }
 
 extension ViewController: UITableViewDataSource{
@@ -62,3 +64,4 @@ extension ViewController: UITableViewDelegate{
         self.navigationController?.pushViewController(detail, animated: true)
     }
 }
+
