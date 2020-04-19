@@ -99,12 +99,12 @@
 		C09AD326244C5F150088E452 /* TorpolRukit Jabodetabek */ = {
 			isa = PBXGroup;
 			children = (
-				C09AD327244C5F150088E452 /* AppDelegate.swift */,
-				C09AD329244C5F150088E452 /* SceneDelegate.swift */,
-				C09AD32B244C5F150088E452 /* ViewController.swift */,
+				C09AD357244C60670088E452 /* Base */,
+				C09AD359244C60950088E452 /* Controller */,
 				C09AD32D244C5F150088E452 /* Main.storyboard */,
+				C09AD358244C60870088E452 /* Model */,
+				C09AD35A244C609C0088E452 /* View */,
 				C09AD330244C5F170088E452 /* Assets.xcassets */,
-				C09AD332244C5F170088E452 /* LaunchScreen.storyboard */,
 				C09AD335244C5F170088E452 /* Info.plist */,
 			);
 			path = "TorpolRukit Jabodetabek";
@@ -126,6 +126,38 @@
 				C09AD34B244C5F170088E452 /* Info.plist */,
 			);
 			path = "TorpolRukit JabodetabekUITests";
+			sourceTree = "<group>";
+		};
+		C09AD357244C60670088E452 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD327244C5F150088E452 /* AppDelegate.swift */,
+				C09AD329244C5F150088E452 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C09AD358244C60870088E452 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C09AD359244C60950088E452 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD32B244C5F150088E452 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C09AD35A244C609C0088E452 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C09AD332244C5F170088E452 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
